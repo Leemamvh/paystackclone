@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #011B33;
+    text-rendering: optimizeLegibility;
+    margin: 0;
+    max-width: 100%;
+}
+
+button {
+    height: 3em;
+    width: 12em;
+    border: none;
+    border-radius: 0.5em;
+    background-color: #3BB75E;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 2.6rem;
+    margin-bottom: auto;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+}
+
+section {
+    position: absolute;
+    width: 100%;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 4em;
+    background: rgba(255,255,255, 0.9);
+    max-width: 100%;
+}
+
+.logo {
+    margin-left: 25px;
+    position: relative;
+    bottom: 0.3em;
+}
+
+.stack-logo {
+    width: 120px;
+    margin-left: 25px;
+}
+
+
+.nav-list {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #011B33;
+}
+
+.ref {
+    width: 10px;
+    height: 5.5px;
+    margin-bottom: 2px;
+    
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    margin-left: 1em;
+
+}
+
+.header-btn {
+    height: 3em;
+    width: 12em;
+    background-color: #3BB75E;
+}
+
+.header-btn:hover {
+    background-color: #349D52D4;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    margin-left: 370px;
+    padding-right: 30px;
+}
+
+.nav-item {
+    margin-top: 0.98em;
+    margin-right: auto;
+    margin-left: 0.8em;
+}
+
+.nav-button {
+    margin-left: 1em;
+    margin-right: auto;
+    margin-top: 0.5em;
+}
+
+.flag {
+    width: 13px;
+    height: 9px;
+    margin-left: 10px; 
+}
+
+
+.paragraph {
+    background-image: linear-gradient(#EAF6FC, #ffff);
+    margin-top: 1em;
+}
+
+.container {
+    margin-left: 5em;
+    line-height: 1;
+    padding-top: 5em;
+}
+
+p.text {
+    font-size: larger;
+	width: 47vw;
+	margin-top: 5px;
+	font-size: 1.1rem;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
